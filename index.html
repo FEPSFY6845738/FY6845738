@@ -242,11 +242,11 @@
             document.getElementById('slide').src = slideImages[currentSlide];
           }
           function nextSlide() {
-            currentSlide = (currentSLide + 1) % slideImages.length;
+            currentSlide = (currentSlide + 1) % slideImages.length;
             showSlide();
           }
           function prevSlide() {
-            currentSlide = (currentSLide - 1 + slideImages.length) % slideImages.length;
+            currentSlide = (currentSlide - 1 + slideImages.length) % slideImages.length;
             showSlide();
           }
           // Function to show a specific slide based on the button clicked
