@@ -237,8 +237,9 @@
           // Array of slide image URLs
           var slideImages = ["slide 1.JPG", "slide 2.jpg", "slide 3.jpg", "slide 4.jpg", "slide 5.jpg"];
           var currentSlide = 0;
+          
           function showSlide() {
-            document.getElementbyId('slide').src = slideImages[currentSlide];
+            document.getElementById('slide').src = slideImages[currentSlide];
           }
           function nextSlide() {
             currentSlide = (currentSLide + 1) % slideImages.length;
